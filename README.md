@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌌 Tuhin Roy | Immersive Portfolio
 
-## Getting Started
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind_4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spline-FF3366?style=for-the-badge&logo=spline&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+</div>
 
-First, run the development server:
+---
+
+## ✨ Overview
+A high-fidelity, interactive developer portfolio built with a focus on immersive 3D web environments and premium UI/UX. This project merges clean frontend architecture with real-time 3D models and social integration.
+
+> **Live Demo:** [portfolio-link.vercel.app](https://portfolio-link.vercel.app) *(Update with your actual URL)*
+
+---
+
+## 🚀 Key Features
+
+### 🤖 3D Robot Interaction (Hero)
+- **Mouse Tracking:** Integrated Spline model with global coordinate tracking. The robot "looks" at your cursor anywhere in the hero section.
+- **Glassmorphism HUD:** Sci-Fi inspired technical overlays with real-time system status indicators.
+
+### 🍱 Bento-Grid Project Showcase
+- **Dual-Phase Interaction:** Cards transition from high-quality project imagery to a detailed "Bento-Style" technical breakdown on hover/tap.
+- **Dynamic Tagging:** Tech stack tags are color-coded based on the technology (e.g., Tailwind Blue, JavaScript Yellow).
+- **Mobile Optimized:** Full support for touch-manipulation with state-based hover reveals.
+
+### 🪐 Orbiting Tech Stack
+- **Multi-Orbit Visualization:** A dynamic, rotating view of core skills across Foundations, Frameworks, and Tools.
+- **Responsive Geometry:** Automatically scales and repositions for mobile devices to maintain visual clarity.
+
+### 📧 Integrated Contact Engine
+- **Formspree Connection:** Fully functional contact form with real-time validation (Zod + React Hook Form).
+- **Interactive States:** Custom loading spinners and success feedback loops.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js 16 (App Router), React 19, Tailwind CSS 4
+- **3D Modeling:** Spline Tool (Runtime API)
+- **Animation:** Framer Motion (Scroll-triggered reveals, staggered entrances)
+- **Forms & Validation:** React Hook Form, Zod, Formspree
+- **Icons:** Lucide-React
+- **Backend (Integration):** Supabase, Appwrite
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+├── public/          # Static assets (SVGs, Favicon)
+├── src/
+│   ├── app/         # Next.js App Router (Layouts, Global Styles)
+│   ├── components/
+│   │   ├── 3d/      # Spline scene components
+│   │   ├── layout/  # Navbar, Footer
+│   │   ├── sections/# Page segments (Hero, Projects, Skills)
+│   │   └── ui/      # Reusable UI primitives (Buttons, Orbiting Circles)
+│   └── lib/         # Utility functions & CN merging
+├── next.config.mjs  # Optimized build configuration
+└── package.json     # Dependency manifest
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📥 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/spline-portfolio.git
+   ```
 
-## Learn More
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Set up Formspree:**
+   Replace the endpoint in `src/components/sections/Contact.jsx` with your own Formspree ID.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. **Open [http://localhost:3000](http://localhost:3000)** to view it in the browser.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
+This project is [MIT](LICENSE) licensed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+<div align="center">
+  <p>Built with ❤️ by <b>Tuhin Roy</b></p>
+  <a href="https://github.com/yourusername">
+    <img src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social" />
+  </a>
+</div>
