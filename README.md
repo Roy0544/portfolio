@@ -13,7 +13,7 @@
 ## ✨ Overview
 A high-fidelity, interactive developer portfolio built with a focus on immersive 3D web environments and premium UI/UX. This project merges clean frontend architecture with real-time 3D models and social integration.
 
-> **Live Demo:** [portfolio-link.vercel.app](https://portfolio-link.vercel.app) *(Update with your actual URL)*
+> **Live Demo:** [portfolio-link.vercel.app](https://portfolio-nine-sable-39sv0g5oqj.vercel.app) *(Update with your actual URL)*
 
 ---
 
